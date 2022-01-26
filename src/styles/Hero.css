@@ -1,0 +1,153 @@
+.hero {
+  background-color: var(--overlay);
+  color: #fff;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+}
+.herooooo {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero_card {
+  margin-left: 20em;
+  font-family: "Poppins", sans-serif;
+}
+.hero:before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  font-family: "Poppins", sans-serif;
+}
+.hero_p {
+  margin-top: 3em;
+  font-size: 4rem;
+  margin-left: -5rem;
+  margin-bottom: 0%;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-right: 1em;
+}
+.hero_d {
+  margin-top: 0.5em;
+  font-size: 2rem;
+  margin-left: -5rem;
+  margin-bottom: 0;
+  font-family: "Poppins", sans-serif;
+}
+.hero_e {
+  margin-top: 1em;
+  font-size: 1.5rem;
+  margin-left: -5rem;
+  text-align: justify;
+  text-justify: inter-word;
+  max-width: 28em;
+  font-family: "Poppins", sans-serif;
+}
+.hero .content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1100px;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  padding: 1rem;
+}
+
+.hero .content p:first-child {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.hero .content p:nth-child(2) {
+  font-size: 1.9rem;
+}
+
+.hero .content p:nth-child(3) {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.hero .content p:nth-child(4) {
+  font-size: 2.2rem;
+  font-style: italic;
+}
+
+.hero_details {
+  color: black;
+  text-decoration: none;
+  font-size: 10em;
+  font-family: "Poppins", sans-serif;
+  margin-right: 0.2em;
+}
+
+.hero_details1 {
+  color: black;
+  text-decoration: none;
+  font-size: 10em;
+  margin-top: 6em;
+  margin-left: 1.7em;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero .button:hover {
+  background-color: var(--secondary-dark);
+  border: 1px solid var(--secondary-dark);
+}
+
+/* ////////////////////////////////////////////////////////// */
+@media (max-width: 1100px) {
+  .herooooo {
+    display: flex;
+    background-color: red;
+  }
+  .hero {
+    height: 150%;
+  }
+  .hero_card {
+    margin-left: 14em;
+  }
+  .hero_details {
+    margin-right: 0.2em;
+    max-height: 130%;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero {
+    height: 200%;
+    max-width: 490px;
+    background-color: red;
+  }
+  .herooooo {
+    display: grid;
+    max-width: 490px;
+  }
+  .hero_card {
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: 17em;
+  }
+  .hero_details {
+    grid-column: 1;
+    grid-row: 2;
+    max-width: 400px;
+    margin-left: 0.65em;
+    margin-top: -1.9em;
+  }
+  .hero_e {
+    max-width: 400px;
+  }
+  .hero_d {
+    max-width: 400px;
+  }
+}

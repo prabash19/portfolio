@@ -1,0 +1,164 @@
+.Project {
+  width: 100%;
+  margin-top: 0%;
+  height: 100vh;
+  background-color: white;
+  margin-right: 0%;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+}
+.yo_container {
+  margin-top: em;
+  font-family: "Poppins", sans-serif;
+}
+.test_heading {
+  font-size: 3rem;
+  color: none;
+  margin-top: 0%;
+  font-family: "Poppins", sans-serif;
+  max-height: 2em;
+  margin-left: 11em;
+  margin-top: 1.5em;
+  font-weight: 700;
+}
+
+.card_container {
+  margin-top: 2em;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+}
+.card1 {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0px 1px 6px 1px #000;
+  padding: 1rem;
+  height: 20em;
+  margin-top: em;
+  margin-left: 1.7em;
+  margin-right: 0%;
+  font-family: "Poppins", sans-serif;
+  max-width: 20em;
+  width: 20em;
+}
+.card2 {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0px 1px 6px 1px #000;
+  padding: 1rem;
+  height: 20em;
+  margin-top: em;
+  margin-left: 1.7em;
+  margin-right: 0%;
+  font-family: "Poppins", sans-serif;
+  max-width: 20em;
+  width: 20em;
+}
+.card3 {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0px 1px 6px 1px #000;
+  padding: 1rem;
+  height: 20em;
+  margin-top: em;
+  margin-left: 1.7em;
+  margin-right: 0%;
+  font-family: "Poppins", sans-serif;
+  max-width: 20em;
+  width: 20em;
+}
+.project_dee {
+  color: #000;
+  margin-top: 1em;
+  font-family: "Poppins", sans-serif;
+}
+.project_link {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.project_details {
+  margin-top: 1em;
+  font-family: "Poppins", sans-serif;
+}
+
+.Project img {
+  margin-top: 0.1rem;
+  width: 18em;
+  height: 8em;
+  margin-left: 0.3em;
+  border-radius: 2px;
+}
+
+.Project .card p {
+  font-size: 0.9em;
+  font-weight: 500;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  text-justify: inter-word;
+}
+
+.Project .card span {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+/* -------------------------------------------------------------------- */
+@media (max-width: 1100px) {
+  .Project {
+    min-height: 1000px;
+    max-width: 100%;
+    position: relative;
+    background-color: blue;
+  }
+  .card_container {
+    display: grid;
+  }
+  .card1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .card3 {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 1em;
+  }
+  .card2 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .test_heading {
+    margin-left: 8em;
+  }
+}
+
+@media (max-width: 700px) {
+  .Project {
+    height: 300%;
+    max-width: 500px;
+    background-color: blue;
+  }
+  .card_container {
+    display: grid;
+  }
+  .card1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .card3 {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 1em;
+  }
+  .card2 {
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 1em;
+  }
+  .test_heading {
+    margin-left: 3em;
+  }
+  .card_container {
+    margin-left: 1em;
+  }
+}
